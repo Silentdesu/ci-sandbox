@@ -8,6 +8,7 @@
 [Aa]rtifacts/
 build.ps1
 [Tt]ools/
+*.DotSettings
 
 /src/CI-Sandbox/[Ll]ibrary/
 /src/CI-Sandbox/[Tt]emp/
