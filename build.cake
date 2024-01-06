@@ -1,6 +1,6 @@
 #addin nuget:?package=Cake.Unity&version=0.9.0
 
-var target = Argument("target", "Build-Android");
+var target = Argument("target", "Build-PC");
 
 Task("Clean-Artifacts")
     .Does(() =>
