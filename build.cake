@@ -17,7 +17,7 @@ Task("Build-PC")
         {
             BatchMode = true,
             Quit = true,
-            ExecuteMethod = "Project.Builder.BuildPC",
+            ExecuteMethod = "Project.Editor.Builder.BuildPC",
             BuildTarget = BuildTarget.Win64,
             LogFile = "./artifacts/PC/build.log"
         }, new UnityEditorSettings
@@ -36,7 +36,7 @@ Task("Build-Android")
             ProjectPath = "./src/CI-Sandbox",
             BatchMode = true,
             Quit = true,
-            ExecuteMethod = "Project.Builder.BuildAndroid",
+            ExecuteMethod = "Project.Editor.Builder.BuildAndroid",
             BuildTarget = BuildTarget.Android,
             LogFile = "./artifacts/Android/build.log"
         }, new UnityEditorSettings
