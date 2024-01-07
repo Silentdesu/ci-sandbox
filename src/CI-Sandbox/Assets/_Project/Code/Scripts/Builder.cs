@@ -2,7 +2,7 @@
 
 namespace Project
 {
-    public static class ProjectBuilder
+    public static class Builder
     {
         [MenuItem("Tools/Build/💻Windows", priority = 0)]
         public static void BuildPC() =>
