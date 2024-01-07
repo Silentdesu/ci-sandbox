@@ -17,7 +17,7 @@ Task("Build-PC")
         {
             BatchMode = true,
             Quit = true,
-            ExecuteMethod = "Project.Editor.ProjectBuilder.BuildPC",
+            ExecuteMethod = "Editor.ProjectBuilder.BuildPC",
             BuildTarget = BuildTarget.Win64,
             LogFile = "./artifacts/PC/build.log"
         }, new UnityEditorSettings
@@ -35,7 +35,7 @@ Task("Build-Android")
         {
             BatchMode = true,
             Quit = true,
-            ExecuteMethod = "Project.Editor.ProjectBuilder.BuildAndroid",
+            ExecuteMethod = "Editor.ProjectBuilder.BuildAndroid",
             BuildTarget = BuildTarget.Android,
             LogFile = "./artifacts/Android/build.log"
         }, new UnityEditorSettings

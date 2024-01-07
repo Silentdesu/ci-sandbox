@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace Project.Editor
+namespace Editor
 {
     public static class ProjectBuilder
     {
