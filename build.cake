@@ -33,6 +33,7 @@ Task("Build-Android")
     UnityEditor(2022, 3,
         new UnityEditorArguments
         {
+            ProjectPath = "./src/CI-Sandbox",
             BatchMode = true,
             Quit = true,
             ExecuteMethod = "Project.Builder.BuildAndroid",
